@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(166, 216, 231);
+}
+
+.container{
+    position: relative;
+    background-image: url(img/credit_background.jpg);
+    background-size: cover;
+    padding: 25px;
+    border-radius: 38px;
+    max-width: 1000px;
+    width: 100%;
+    box-shadow: 0 5px 10px rgb(0, 0, 0, 0.1);
+}
+
+header,
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+    
+
+
+.logo img{
+    width: 200px;
+    
+       
+    
+
+}
+
+header .chip{
+    width: 150px;
+}
+
+h5{
+    color: white;
+    font-size: 30px;
+    font-weight: 200px;
+    margin-bottom: 20px;
+}
+
+h5 .number{
+    margin-top: 10px;
+    font-size: 30px;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+
+}  
+
+h5 .name-number{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    
+    
+}
+
+h6{
+    color: white;
+    font-size: 20px;
+    font-weight: 200;
+    margin-bottom: 20px;
+}
+
+.container .card-details{
+    margin-top: 100px;
+    display: flex;
+    box-sizing: border-box;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-bottom: 2px;
+    padding: 10px;
+}
+
+.name{
+    display: flex;
+    margin-top: 50px;
+    letter-spacing: 5px;
+}
